@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/8c0d744ba0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Musidesk</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="img/e-musidesk-logo.png" alt="logo" />
+        </div>
+        </div>
+      </div>
+    </header>
+    <div class="menu">
+        <p>MENU <i class="fa-solid fa-caret-down"></i></p>
+    </div>
+    <div class="title">
+        <h2><i class="fa-solid fa-list"></i> Overzicht leden van Groot orkest</h2>
+      </div>
+    <div class="buttons">
+        <button class="terug"><i class="fa-solid fa-arrow-left"></i> terug</button>
+        <button class="invallers"><i class="fa-solid fa-clipboard-check"></i> Toon alleen invallers</button>
+    </div>
+
+    <table id="leden">
+      <tr>
+        <th>Naam <i class="fa-solid fa-sort"></i></th>
+        <th>Sectie <i class="fa-solid fa-sort"></i></th>
+        <th>Type lid <i class="fa-solid fa-sort"></i></th>
+        <th>Status <i class="fa-solid fa-sort"></i></th>
+      </tr>
+      <tr>
+        <td class="naam">Angenees Mulder</td>
+        <td>Dirigent</td>
+        <td>Vast lid</td>
+        <td>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#"
+                ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+              >
+              <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+              <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="naam">Baat de Bries</td>
+        <td>Trombone</td>
+        <td>Vast lid</td>
+        <td>
+          <div class="dropdown">
+            <button onclick="myFunction2()" class="dropbtn">
+              Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+            </button>
+            <div id="myDropdown2" class="dropdown-content">
+              <a href="#"
+                ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+              >
+              <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+              <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="naam">Floris de vijfde de Tester</td>
+        <td>Bugel</td>
+        <td>Invaller</td>
+        <td>
+          <div class="dropdown">
+            <button onclick="myFunction3()" class="dropbtn">
+              Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+            </button>
+            <div id="myDropdown3" class="dropdown-content">
+              <a href="#"
+                ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+              >
+              <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+              <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="naam">Goossen Janses</td>
+        <td>Bas</td>
+        <td>Invaller</td>
+        <td>
+          <div class="dropdown">
+            <button onclick="myFunction4()" class="dropbtn">
+              Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+            </button>
+            <div id="myDropdown4" class="dropdown-content">
+              <a href="#"
+                ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+              >
+              <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+              <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+              <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+            </div>
+          </div>
+        </td>
+      </tr>
+        <tr>
+            <td class="naam">Pjotter de Boer</td>
+            <td>BUgel</td>
+            <td>Vast lid</td>
+            <td>
+              <div class="dropdown">
+                <button onclick="myFunction5()" class="dropbtn">
+                  Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                </button>
+                <div id="myDropdown5" class="dropdown-content">
+                  <a href="#"
+                    ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+                  >
+                  <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+                  <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="naam">Pjotter de Boer</td>
+            <td>Bugel</td>
+            <td>Vast lid</td>
+            <td>
+              <div class="dropdown">
+                <button onclick="myFunction6()" class="dropbtn">
+                  Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                </button>
+                <div id="myDropdown6" class="dropdown-content">
+                  <a href="#"
+                    ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+                  >
+                  <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+                  <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="naam">Sec.retaris</td>
+            <td>Bugel</td>
+            <td>Vast lid</td>
+            <td>
+              <div class="dropdown">
+                <button onclick="myFunction7()" class="dropbtn">
+                  Actief <i class="fa-solid fa-chevron-down fa-2xs"></i>
+                </button>
+                <div id="myDropdown7" class="dropdown-content">
+                  <a href="#"
+                    ><i class="fa-solid fa-circle-check"></i> Zet inactief</a
+                  >
+                  <a href="#"><i class="fa-solid fa-pen"></i> Wijzig</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In 2e sectie</a>
+                  <a href="#"><i class="fa-solid fa-pen"></i> In ander orkest</a>
+                  <a href="#"><i class="fa-solid fa-trash"></i> Uit orkest</a>
+                </div>
+              </div>
+            </td>
+          </tr>
+    </table>
+    <div class="table-nav table-nav-title">
+        1 tot 7 van 7 resultaten
+    </div>
+    <div class="table-nav table-nav2">
+        <button>Vorige</button>
+        <button class="btnNR">1</button>
+        <button>Volgende</button>
+    </div>
+
+    <footer>
+        <div id="top"></div>
+        <div id="bottom"><ul>
+            <li>2023 Musidesk Rijnbrink</li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Uitleenreglement</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+            <li><a href="#">Algemen voorwaarden</a></li>
+        </ul></div>
+    </footer>
+
+    <script src="dropdown.js"></script>
+  </body>
+</html>

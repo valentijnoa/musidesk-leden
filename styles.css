@@ -54,6 +54,14 @@ body {
   border: none;
   padding: 8px 10px;
 }
+.toevoegen {
+  background: #34a853;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  padding: 8px 10px;
+}
 
 th {
   font-size: 14px;
@@ -79,7 +87,11 @@ th i {
   padding: 8px;
 }
 
-#leden tr:nth-child(even) {
+#leden tr:nth-child(4n + 2) {
+  background-color: #fdeee7;
+}
+
+#leden tr:nth-child(4n + 3) {
   background-color: #fdeee7;
 }
 
@@ -169,6 +181,12 @@ th i {
   color: white;
   background: #ea6216;
   padding: 10px;
+}
+
+.acties a {
+  padding-right: 29px;
+  text-decoration: none;
+  color: #337ab7;
 }
 
 footer {
